@@ -4,7 +4,6 @@ class StreamOrientedKnuthMorrisPratt {
 	var m: Int;
 	var i: Int;
 	var ss: String;
-//	var dd: Int[10];
 	var table: Array<Int>;
 
 	public function new(ss: String) {
@@ -73,6 +72,7 @@ class StreamOrientedKnuthMorrisPratt {
 
 		KMP.begin();
 		trace(KMP.partialSearch("ccarbb"));
+		trace(KMP.partialSearch("lksjaabof"));		
 
 	}
 }
